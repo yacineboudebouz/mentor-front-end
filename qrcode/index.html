@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(107, 172, 173);
+        }
+        
+        .container {
+            display: flex;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: white;
+            width: 200px;
+            height: 340px;
+            padding: 20px;
+            border-radius: 12px;
+        }
+        
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 12px;
+        }
+        
+        .title {
+            text-align: center;
+            flex-grow: 1;
+            color: hsl(228, 45%, 44%);
+            font-weight: 900;
+            font-family: 'Poppins';
+            font-size: 15px;
+        }
+        
+        .info {
+            flex-grow: 2;
+            font-family: 'Poppins';
+            text-align: center;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <img src="images/image-qr-code.png" alt="">
+            <p class="title">Improve your front-end skills by building projects</p>
+            <p class="info">Scan the QR code to visit mentor website and take your coding skills to the next level </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
