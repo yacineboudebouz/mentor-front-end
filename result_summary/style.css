@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+:root {
+    --color-lightblue: hsl(221, 100%, 96%);
+    --color-darkblue: hsl(224, 30%, 27%);
+    --color-royaleblue: hsl(241, 81%, 54%);
+    --color-violetblue: hsla(256, 72%, 46%, 1);
+    --color-persianblue: hsla(241, 72%, 46%, 1);
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.container {
+    border-radius: 12px;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.first-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    width: 50%;
+    height: 300px;
+    background-color: var(--color-violetblue);
+    align-items: center;
+}
+
+.second-section {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section .title {
+    margin-top: 25px;
+    color: #fff;
+}
+
+.circle {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(to top, var(--color-violetblue), var(--color-persianblue));
+}
+
+.score {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.of {
+    margin-top: 0;
+    color: #fff;
+    opacity: 50%;
+    font-size: 10px;
+}
+
+.great {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.text {
+    color: #fff;
+    padding: 0 15px;
+    font-size: 13px;
+}
+
+.summary {
+    margin-left: 10px;
+    font-weight: bolder;
+    color: var(--color-darkblue);
+}
+
+ul {
+    padding: 0px 10px;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list p {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--color-darkblue);
+}
+
+.list li div {
+    width: auto;
+    border-radius: 8px;
+    height: 35px;
+    display: flex;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+
+.first img {
+    height: 25px;
+}
+
+.first {
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.second {
+    background: rgba(255, 238, 0, 0.2);
+}
+
+.third {
+    background: rgba(0, 255, 174, 0.2);
+}
+
+.fourth {
+    background: rgba(0, 51, 255, 0.2);
+}
+
+.continue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-darkblue);
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.continue p {
+    color: #fff;
+}
